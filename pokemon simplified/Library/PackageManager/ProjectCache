@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638077911469452135
-    m_Hash: 3512982572
+      ticks: 638077959292154115
+    m_Hash: 4251919404
   m_LockFileStatus:
     m_FilePath: C:/Users/Kevin/Documents/GitHub/PokemonSimplified/pokemon simplified/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638077912152121561
-    m_Hash: 151037051
+      ticks: 638077959292154115
+    m_Hash: 56773558
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
