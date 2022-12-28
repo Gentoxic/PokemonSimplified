@@ -1,3 +1,32 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+# Custom for Visual Studio
+*.cs     diff=csharp
+# Standard to msysgit
+*.doc	 diff=astextplain
+*.DOC	 diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot  diff=astextplain
+*.DOT  diff=astextplain
+*.pdf  diff=astextplain
+*.PDF	 diff=astextplain
+*.rtf	 diff=astextplain
+*.RTF	 diff=astextplain
+
+# ------------------------
+# LFS
+#-------------------------
+# libraries and packages
+*.a filter=lfs -crlf
+*.apk filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs -crlf
+*.dylib filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs -crlf
+*.rar filter=lfs diff=lfs merge=lfs -text
+*.unitypackage filter=lfs -crlf
+*.zip filter=lfs -crlf
+
 # 3D models
 *.3dm filter=lfs diff=lfs merge=lfs -text
 *.3ds filter=lfs diff=lfs merge=lfs -text
